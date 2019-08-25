@@ -1,5 +1,10 @@
 #include <string>
+#include <iostream>
+#include <vector>
+
 using std::string;
+using std::cout;
+using std::vector;
 
 int main() {
     int a = 5;
@@ -12,10 +17,12 @@ int main() {
     cout<<b[0]<<"\n";
     cout<<b[4]<<"\n";
 
-    int numeros{4, 8, 9, 5, 6, 7};
+    std::vector<int> numeros{4, 8, 9, 5, 6, 7};
     cout<<numeros[0]<<"\n";
 
     float numero{5.16};
-    cout<<numero<<"\n"
+    cout<<numero<<"\n";
+
+    return 0;
 
 }
