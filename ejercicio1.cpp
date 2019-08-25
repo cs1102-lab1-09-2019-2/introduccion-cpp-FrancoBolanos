@@ -1,6 +1,5 @@
 #include <iostream>
-
-int main() {
+int main(){
 
     std::cout<<"UTEC es la mejor Universidad!!\n";
 
