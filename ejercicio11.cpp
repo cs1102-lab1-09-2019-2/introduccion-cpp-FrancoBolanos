@@ -1,3 +1,6 @@
+#include <iostream>
+#include <assert.h>
+
 
 bool esPalindromo(int n) {
     bool palindromo = true;
@@ -8,8 +11,9 @@ bool esPalindromo(int n) {
             palindromo = false;
             break;
         }
-    }
 
+    }
+    return  palindromo;
 }
 
 int main() {
